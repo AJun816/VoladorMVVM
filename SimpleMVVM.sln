@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{8EE92AD7-1015-4B55-A6CD-E30542DF55D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoladorMVVM", "VoladurMVVM\VoladorMVVM.csproj", "{8E36843A-C06A-4BAF-8FDC-8A31C72BD1AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE92AD7-1015-4B55-A6CD-E30542DF55D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE92AD7-1015-4B55-A6CD-E30542DF55D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE92AD7-1015-4B55-A6CD-E30542DF55D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE92AD7-1015-4B55-A6CD-E30542DF55D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E36843A-C06A-4BAF-8FDC-8A31C72BD1AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E36843A-C06A-4BAF-8FDC-8A31C72BD1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E36843A-C06A-4BAF-8FDC-8A31C72BD1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E36843A-C06A-4BAF-8FDC-8A31C72BD1AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FA85C88-EFA7-4B28-974F-1C5F0E8E95EE}
+	EndGlobalSection
+EndGlobal
