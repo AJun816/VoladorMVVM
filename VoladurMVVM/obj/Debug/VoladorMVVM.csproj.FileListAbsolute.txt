@@ -33,3 +33,4 @@ D:\GitHub\Volador816\VoladorMVVM\VoladurMVVM\obj\Debug\VoladorMVVM.csproj.CoreCo
 D:\GitHub\Volador816\VoladorMVVM\VoladurMVVM\obj\Debug\VoladorMVVM.csproj.CopyComplete
 D:\GitHub\Volador816\VoladorMVVM\VoladurMVVM\obj\Debug\SimpleMVVM.dll
 D:\GitHub\Volador816\VoladorMVVM\VoladurMVVM\obj\Debug\SimpleMVVM.pdb
+D:\GitHub\Volador816\VoladorMVVM\VoladurMVVM\obj\Debug\VoladorMVVM.csprojAssemblyReference.cache
