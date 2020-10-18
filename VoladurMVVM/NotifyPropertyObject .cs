@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace SimpleMVVM
 {
@@ -14,7 +15,7 @@ namespace SimpleMVVM
         /// 属性值更改时引发通知
         /// </summary>
         /// <param name="propertyName">属性名</param>
-        public void RaisePropertyChanged(string propertyName)
+        public void RaisePropertyChanged([CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
