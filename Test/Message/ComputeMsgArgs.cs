@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SimpleMVVM.Message;
+using VoladorMVVM.Message;
 
 namespace Test.Message
 {

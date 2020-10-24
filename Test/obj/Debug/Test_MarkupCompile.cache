@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\GitHub\Volador816\VoladorMVVM\Test\App.xaml
-21909082291
+42120471195
 
-10-104660958
-18-1458131510
-Calculator.xaml;MainWindow.xaml;
+15-642322575
+201210132069
+Views\V_Calculator.xaml;Views\V_MainWindow.xaml;Views\V_PropertyValidateModel.xaml;Views\V_ValidatetionHelper.xaml;
 
 False
 

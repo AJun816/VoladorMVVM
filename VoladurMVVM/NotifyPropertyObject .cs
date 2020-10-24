@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace SimpleMVVM
+namespace VoladorMVVM
 {
     /// <summary>
     /// 实现INotifyPropertyChanged接口

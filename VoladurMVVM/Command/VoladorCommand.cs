@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace SimpleMVVM.Command
+namespace VoladorMVVM.Command
 {
     public class VoladorCommand : ICommand
     {

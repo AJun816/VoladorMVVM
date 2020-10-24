@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace SimpleMVVM.Message
+namespace VoladorMVVM.Message
 {
     public abstract class MessageRegisterBase : IMessageRegister
     {

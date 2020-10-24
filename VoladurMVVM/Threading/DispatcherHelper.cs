@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Threading;
 
-namespace SimpleMVVM.Threading
+namespace VoladorMVVM.Threading
 {
     public class DispatcherHelper
     {

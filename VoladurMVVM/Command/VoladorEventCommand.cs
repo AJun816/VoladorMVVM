@@ -2,7 +2,7 @@
 using System.Windows.Input;
 using System.Windows.Interactivity;
 
-namespace SimpleMVVM.Command
+namespace VoladorMVVM.Command
 {
     public class VoladorEventCommand : TriggerAction<DependencyObject>
     {

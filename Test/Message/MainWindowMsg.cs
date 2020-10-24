@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using SimpleMVVM.Message;
 using Test.Message;
+using Test.Views;
+using VoladorMVVM.Message;
 
 namespace Test
 {
@@ -29,7 +30,7 @@ namespace Test
 
             RegisterMsg<ComputeMsgArgs>("ShowComputeWindow",a => 
             {
-                Calculator calculator = new Calculator();
+                V_Caculator calculator = new V_Caculator();
                 calculator.Owner = RegInstance as Window;
                 calculator.Show();
             });

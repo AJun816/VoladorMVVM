@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using SimpleMVVM.Message;
+using VoladorMVVM.Message;
 
-namespace SimpleMVVM.ViewModel
+namespace VoladorMVVM.ViewModel
 {
     public class ViewModelInfo
     {
