@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace VoladorMVVM.Command
 {
-    public class DelegateCommand<T> : ICommand
+    public class VoladorCommand<T> : ICommand
     {
         //当这个命令能不能执行状态发生改变时，通知命令的调用者，告诉他状态
         public event EventHandler CanExecuteChanged
@@ -31,8 +31,8 @@ namespace VoladorMVVM.Command
         private readonly Func<T, bool> _canExecuteAction;
         //命令执行的动作
         private readonly Action<T> _executeAction;
-        public DelegateCommand(Action<T> executeAction) : this(executeAction, null) { }
-        public DelegateCommand(Action<T> executeAction, Func<T, bool> canExecuteAction)
+        public VoladorCommand(Action<T> executeAction) : this(executeAction, null) { }
+        public VoladorCommand(Action<T> executeAction, Func<T, bool> canExecuteAction)
         {
             _executeAction = executeAction;
             _canExecuteAction = canExecuteAction;
